@@ -4,11 +4,18 @@ import React, { useState } from "react";
 
 function CounterUsingHooksUseState() {
   // Use Array destructuring and useState
+  // const [state, setState] = useState(initialState);
   const [count, setCount] = useState(0);
+
+  // let Increament = () => setCount(count + 1)
+
 
   return (
     <div>
-      <button onClick={() => setCount(count + 1)}>Count: {count}</button>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>
+        Click me
+      </button>
     </div>
   );
 }

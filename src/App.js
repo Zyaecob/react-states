@@ -31,7 +31,7 @@ export const MyContext = React.createContext();
 function App() {
   return (
     <div className="App">
-      <UsingClassLifeCycleComponent />
+      <UsingUseEffect />
     </div>
   );
 }
