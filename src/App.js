@@ -15,9 +15,12 @@ import CounterUsingHooksUseState from "./Components/UseState/CounterUsingHooksUs
 
 // useState callback example
 import CounterIncrementDecrement from "./Components/UseState/CounterIncrementDecrement";
+import IncreaseDecreaseCount from "./Components/UseState/IncreaseDecreaseCount";
+
 
 // useEffect
 import UsingUseEffect from "./Components/UseEffect/UsingUseEffect";
+import UseEffectForTitle from "./Components/UseEffect/UseEffectForTitle";
 
 // Context API with out hooks
 import Component1 from "./Components/UseContext/Component1";
@@ -34,7 +37,9 @@ export const MyContext = React.createContext();
 function App() {
   return (
     <div className="App">
-      <MyCounter />
+      {/* <CounterIncrementDecrement /> */}
+      {/* <IncreaseDecreaseCount /> */}
+      <UseEffectForTitle />
 
     </div>
   );
